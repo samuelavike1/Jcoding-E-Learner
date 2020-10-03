@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="static/css/halfmoon.min.css">
+    <link rel="stylesheet" href="static/css/halfmoon.css">
+    <link rel="stylesheet" href="static/css/halfmoon-variables.css">
+    <link rel="stylesheet" href="static/css/innerstyle.css">
+</head>
+<body>
+      <!-- Page wrapper with .with-navbar class -->
+      <div class="page-wrapper with-navbar">
+        <!-- Navbar (immediate child of the page wrapper) -->
+        <nav class="navbar">
+
+        <!-- Navbar brand -->
+        <a href="#" class="navbar-brand">
+            <img src="images/logo.png" alt="hacking">
+            JCoding
+        </a>
+        
+
+        <!-- Navbar nav -->
+        <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+            <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">Cheetsheets</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">My Profile</a>
+            </li>
+        </ul>
+
+        <form class="form-inline d-none d-md-flex ml-auto" action="..." method="..."> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px), ml-auto = margin-left: auto -->
+            <input type="text" class="form-control" placeholder="Search" required="required">
+            <button class="btn btn-primary" type="submit">Search</button>
+            <a href="login.html" class="btn btn-danger" >Sign Up</a>
+            <a href="login.html" class="btn btn-success">Log In</a>
+        </form>
+        </nav>
+    </div>
+    <div class="container-fluid" id="logincontainer">
+        <div class="row">
+          <!-- First column -->
+          <div class="col-sm-6">
+            <div class="content">
+                <div class="form-text">
+                    <h4>Login</h4>
+                  </div>
+                <form action="..." method="..." class="w-400 mw-full"> <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
+                    <label for="email address" class="required">Email Address</Address></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address" required="required">
+                    <div class="form-group">
+                      <label for="password" class="required">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Password" required="required">
+                    </div>
+                    <input class="btn btn-success" type="submit" value="Login">
+                  </form>
+            </div>
+          </div>
+          <!-- Second column -->
+          <div class="col-sm-6">
+            <div class="content">
+                <div class="form-text">
+                    <h4>Sign Up</h4>
+                  </div>
+                <form action="..." method="..." class="w-400 mw-full"> <!-- w-400 = width: 40rem (400px), mw-full = max-width: 100% -->
+                    <label for="email address" class="required">Email Address</Address></label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address" required="required">
+                    <div class="form-group">
+                      <label for="username" class="required">Username</label>
+                      <input type="text" class="form-control" id="username" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="required">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="confirm-password" class="required">Confirm password</label>
+                      <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password" required="required">
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Sign up">
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="static/js/halfmoon.min.js"></script>
+</body>
+</html>
